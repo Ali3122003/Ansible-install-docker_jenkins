@@ -16,6 +16,19 @@ This Ansible playbook automates the installation of **Docker** and **Jenkins** o
 
 ---
 
+## 📌 Features
+
+✅ **Automated Installation** – Installs Docker and Jenkins with a single command.  
+✅ **OS Detection** – Supports **Ubuntu** and **RedHat-based** distributions.  
+✅ **Dependency Management** – Installs required dependencies before proceeding.  
+✅ **Repository Setup** – Adds official Docker and Jenkins repositories.  
+✅ **Service Management** – Ensures Docker and Jenkins are enabled and running.  
+✅ **Secure Execution** – Uses `sudo` for privileged tasks with `--ask-become-pass`.  
+✅ **Modular Roles** – Organized using **Ansible roles** for maintainability.  
+✅ **Idempotency** – Only changes what’s necessary, avoiding redundant installations.  
+
+---
+
 ## 📂 Project Structure
 
 ```plaintext
