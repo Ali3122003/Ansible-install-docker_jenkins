@@ -49,6 +49,11 @@ ansible/
         └── README.md   # Role-specific documentation
 ```
 ---
+## Run Playbook 
+```sh
+  $ ansible-playbook main.yml --ask-become-pass
+```
+---
 
 ## 🎯 Conclusion
 
